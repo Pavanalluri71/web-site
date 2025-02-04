@@ -1,0 +1,279 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width,
+ initial-scale=1.0">
+ <title>Unordered List in Paragraph</title>
+ <style>
+ body {
+ font-family:aclonica;
+ margin: 20px;
+ }
+ h1 {
+ color: #333;
+ }
+ .container {
+ border-radius: 20px;
+ border-color: black;
+ }
+ p {
+ font-size: 16px;
+ line-height: 1.5;
+ }
+ ul {
+ list-style-type: disc;
+ padding-left: 20px;
+ }
+ /* Courses Section Styles */
+ 40
+.Courses-section {
+ background: white;
+ padding: 50px 0;
+ }
+ .Courses-section h2 {
+ color: #4CAF50;
+ text-align: center;
+ margin-bottom: 30px;
+ }
+ .Courses {
+ display: flex;
+ justify-content: space-around;
+ flex-wrap: wrap;
+ max-width: 1200px;
+ margin: auto;
+ gap: 20px;
+ }
+ .course {
+ background: #f9f9f9;
+ padding: 20px;
+ margin: 10px;
+ border-radius: 10px;
+ box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+ width: calc(33%- 40px);
+ box-sizing: border-box;
+ transition: transform 0.3s, box-shadow 0.3s;
+ text-align: left;
+ }
+ 41
+ .course:hover {
+transform: translateY(-5px);
+ box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+ }
+ .course h3 {
+ color: #000000;
+ margin-bottom: 10px;
+ }
+ .course p {
+ line-height: 1.6;
+ font-size: 1rem;
+ }
+ .course-materials ul {
+ padding-left: 20px;
+ }
+ .course-materials ul li {
+ margin-bottom: 5px;
+ }
+ li > a {
+ text-decoration: none;
+ color: #000000;
+ }
+ </style>
+ </head>
+ <body>
+ <div class="container">
+ <div class="Courses-section" id="courses">
+ <h2>Our Courses</h2>
+ <div class="Courses">
+ 42
+<div class="course">
+ <img
+ src="https://m.media-amazon.com/images/I/61ZUj9RzWIL.AC_UF1
+ 000,1000_QL80.jpg" style="width: 300px; height: 200px;"
+ alt="Course 1">
+ <h3>Introduction to Computer Science</h3>
+ <div class="course-materials">
+ <h4>Materials:</h4>
+ <ul>
+ <li><a
+ href="https://jhzhang.cn/resources/A050113G/Computer%20Science
+%20An%20Overview%20(12th%20Global%20Edition).pdf">Textbo
+ ok:
+ "Computer Science: An Overview" by J. Glenn
+ Brookshear</a></li>
+ <li><a
+ href="https://www.edx.org/learn/computer-science/harvard-university-cs50-s-introduction-to-computer-science">Online Course: CS50 by
+ Harvard University</a></li>
+ <li><a href="#" onclick="alert('Please pay to access
+ the
+ assignments')">Assignments:
+ exercises</a></li>
+ </ul>
+ </div>
+ </div>
+ <div class="course">
+ Basic
+ programming
+ <img
+ src="https://media.geeksforgeeks.org/wp-content/uploads/202312051
+ 65904/web-development-image.webp" style="width: 300px; height:
+ 200px;" alt="Course 1">
+ <h3>Web Development</h3>
+ <div class="course-materials">
+ <h4>Materials:</h4>
+ <ul>
+ 43
+<li><a
+ href="https://archive.org/details/htmlandcss/mode/2up">"HTML and
+ CSS: Design and Build Websites" by Jon Duckett</a></li>
+ <li><a
+ href="https://www.udemy.com/course/the-web-developer-bootcamp/?
+ couponCode=LETSLEARNNOWPP">Course: Web Development
+ Bootcamp by Colt Steele on Udemy</a></li>
+ <li><a href="#" onclick="alert('Please pay to access
+ the
+ assignments')">Assignments:
+ pages</a></li>
+ </ul>
+ </div>
+ </div>
+ <div class="course">
+ Creating
+ responsive
+ web
+ <img
+ src="https://media.geeksforgeeks.org/wp-content/cdn-uploads/202307
+ 06095706/intro-data-structure-%E2%80%93-1.png"
+ style="width:
+ 300px; height: 200px;" alt="Course 1">
+ <h3>Data Structures and Algorithms</h3>
+ <div class="course-materials">
+ <h4>Materials:</h4>
+ <ul>
+ href="https://archive.org/details/flooved1567">"Introduction
+ Algorithms" by Cormen, Leiserson, Rivest, and Stein</a></li>
+ <li><a
+ to
+ <li><a
+ href="https://www.coursera.org/specializations/algorithms">Course:
+ Algorithms
+ Specialization
+ Coursera</a></li>
+ by
+ Stanford
+ University
+ on
+ <li><a href="#" onclick="alert('Please pay to access
+ the
+ assignments')">Assignments: Implementing various data
+ structures</a></li>
+ </ul>
+ 44
+</div>
+ </div>
+ <div class="course">
+ <img
+ src="https://media.licdn.com/dms/image/D5612AQH2F5ht1eTMfQ/a
+ rticle-cover_image-shrink_600_2000/0/1699979980627?e=21474836
+ 47&v=beta&t=MZPNRyQYNIswVbjJ9uUJpyFlePI1kdRCgK7LlV_B
+ Djk" style="width: 300px; height: 200px;" alt="Course 1">
+ <h3>Database Management Systems</h3>
+ <div class="course-materials">
+ <h4>Materials:</h4>
+ <ul>
+ <li><a
+ href="http://arwan.lecture.ub.ac.id/files/2011/10/database-system.pdf"
+ >"Database System Concepts" by Silberschatz, Korth, and
+ Sudarshan</a></li>
+ <li><a
+ href="https://www.edx.org/learn/relational-databases/stanford-univers
+ ity-databases-introduction-to-relational-databases">Course:
+ Databases by Stanford University on edX</a></li>
+ <li><a href="#" onclick="alert('Please pay to access
+ the assignments')">Assignments: SQL queries and database design
+ projects</a></li>
+ </ul>
+ </div>
+ </div>
+ <div class="course">
+ <img
+ src="https://c8.alamy.com/comp/J3YFWD/monitor-with-message-soft
+ ware-engineering-and-hands-on-a-keyboard-J3YFWD.jpg"
+ style="width: 300px; height: 200px;" alt="Course 1">
+ <h3>Software Engineering</h3>
+ <div class="course-materials">
+ 45
+<h4>Materials:</h4>
+ <ul>
+ <li><a
+ href="https://engineering.futureuniversity.com/BOOKS%20FOR%20
+ IT/Software-Engineering-9th-Edition-by-Ian-Sommerville.pdf">"Soft
+ ware Engineering" by Ian Sommerville</a></li>
+ <li><a
+ href="https://www.edx.org/learn/software-engineering/university-of-b
+ ritish-columbia-software-engineering-introduction">Course: Software
+ Engineering by University of British Columbia on edX</a></li>
+ <li><a href="#" onclick="alert('Please pay to access
+ the assignments')">Software development lifecycle projects</a></li>
+ </ul>
+ </div>
+ </div>
+ <div class="course">
+ <img
+ src="https://media.licdn.com/dms/image/D4D12AQGkLQsyEngMOg
+ /article-cover_image-shrink_720_1280/0/1709916980239?e=2147483
+ 647&v=beta&t=IXuWgUkqVBMFL8FeWM7-6hQEbWpDYOveXN
+ pnn6Dp5QM" style="width: 300px; height: 200px;" alt="Course 1">
+ <h3>Artificial Intelligence</h3>
+ <div class="course-materials">
+ <h4>Materials:</h4>
+ <ul>
+ <li><a
+ href="https://people.engr.tamu.edu/guni/csce421/files/AI_Russell_No
+ rvig.pdf">Textbook: "Artificial Intelligence: A Modern Approach" by
+ Russell and Norvig</a></li>
+ <li><a
+ href="https://www.coursera.org/courses?query=machine%20learning
+ %20andrew%20ng" >Course: AI for Everyone by Andrew Ng on
+ Coursera</a></li>
+ 46
+the
+ <li><a href="#" onclick="alert('Please pay to access
+ assignments')">Assignments:
+ Implementing
+ algorithms</a></li>
+ </ul>
+ </div>
+ </div>
+ <div class="course">
+ basic
+ AI
+ <img
+ src="https://iies.in/wp-content/uploads/2023/08/Machine-Learning.pn
+ g" style="width: 300px; height: 200px;" alt="Course 1">
+ <h3>Machine Learning</h3>
+ <div class="course-materials">
+ <h4>Materials:</h4>
+ <ul>
+ <li><a
+ href="https://www.microsoft.com/en-us/research/uploads/prod/2006/0
+ 1/Bishop-Pattern-Recognition-and-Machine-Learning-2006.pdf">"Pat
+ tern
+ Recognition and Machine Learning" by Christopher
+ Bishop</a></li>
+ <li><a
+ href="https://www.coursera.org/collections/machine-learning">Cours
+ e: Machine Learning by Andrew Ng on Coursera</a></li>
+ <li><a href="#" onclick="alert('Please pay to access
+ the assignments')">Assignments: Building and training machine
+ learning models</a></li>
+ </ul>
+ </div>
+ </div>
+ </div>
+ </div>
+ </div>
+ </div>
+ </body>
+ 47
+</html>
